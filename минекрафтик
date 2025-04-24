@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Свидание в Minecraft</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #1e1e1e;
+      color: #00ff00;
+      font-family: 'Press Start 2P', cursive;
+      text-align: center;
+      padding: 50px;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      text-shadow: 0 0 10px #00ff00;
+    }
+
+    p {
+      font-size: 1.5em;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      color: #1e1e1e;
+      background-color: #00ff00;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      text-decoration: none;
+      box-shadow: 0 0 15px #00ff00;
+    }
+
+    .button:hover {
+      background-color: #00cc00;
+    }
+
+    .pixel-heart {
+      font-size: 3em;
+      margin-top: 30px;
+    }
+
+    img {
+      width: 300px; /* Примерный размер изображения */
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Хей!</h1>
+  <p>А хочешь свидание в Minecraft?<br>Построим домик, добудем алмазы и устроим пикник под звёздами?</p>
+
+  <div class="pixel-heart">❤️</div>
+
+  <a href="https://minecraft.net" class="button" target="_blank">Погнали!</a>
+
+  <!-- Пример добавления картинки -->
+  <img src="https://example.com/your-image.png" alt="Minecraft Image">
+</body>
+</html>
